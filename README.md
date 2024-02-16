@@ -1,4 +1,6 @@
-## Web
+# 🎮 NLW eSports
+
+## React Web App
 
 <p> This web application allows you to create ads and find duos, say that you are looking foward to playing PUBG but don't have any duo. By creating an Ad and sharing your experience and discord for example allows you to be found for those who want to duo with someone who has the same level of experience or has the same interest.<p>
 
@@ -6,7 +8,7 @@
 
 ![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/16725621-68ed-4526-90f2-8abdcc9eaa87)
 
-## Concepts learnt
+## 👨🏼‍💻 Concepts learnt
 
 <p> One of coolest things was learning the use of a powerful library called <a href="https://www.radix-ui.com/themes/docs/components/dialog">Radix UI</a>
 
@@ -20,18 +22,9 @@
 
 <p>It was used Tailwind for styling which by the way has catched my eyes lately with all facilities that it provides</p>
 
-## Aditional improvements
 
-<p>I have implemented the following improvements to the project adding:</p>
 
-<ul>
-  <li>Carousel</li>
-  <li>Form validation with React hook form</li>
-</ul>
-
-##  #########################################################################################################################################################
-
-## Server
+## 🗃️ Server
 
 <p>It was implemented 4 routes:</p>
 
@@ -45,13 +38,24 @@
 ![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/da4bfbcb-6b8f-426a-a426-b5a0147aef0e)
 
 
-## About implementation
+## 📝 About implementation
 
 <p>I have utilized <a href="https://prisma.io/">Prisma ORM</a> for efficient database management. Prisma ORM is a powerful tool that facilitates handling migrations and queries, providing a powerful solution for interacting with databases.</p>
 
 <p>Additionally, I have employed SQLite in conjunction with Prisma ORM for my database operations. SQLite serves as a lightweight and versatile relational database management system, complementing Prisma ORM to enhance the overall efficiency of data handling.</p>
 
-## Technologies
+
+
+## 💭 Aditional improvements
+
+<p>I have implemented the following improvements to the project adding:</p>
+
+<ul>
+  <li>Carousel</li>
+  <li>Form validation with React hook form</li>
+</ul>
+
+## 📦 Technologies
 
 [![My Skills](https://skillicons.dev/icons?i=react,ts,tailwind,css,prisma,sqlite,nodejs&perline=10&theme=dark)](https://skillicons.dev)
 
