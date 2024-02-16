@@ -10,11 +10,11 @@
 
 <p> One of coolest things was learning the use of a powerful library called <a href="https://www.radix-ui.com/themes/docs/components/dialog">Radix UI</a>
 
-<p>In the example bellow I would want to use the Dialog commponent. So in order to use that after done the <code>npm install....</code> and imported I've surround the components which I want to be inside my dialog with the <code>Dialog.Root</code> tag.</p>
+<p>In the example bellow I would want to use the Dialog component so in order to use that after done the <code>npm install....</code> and imported I've surround the components which I wanted to be inside my dialog with the <code>Dialog.Root</code> tag.</p>
 
 ![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/4e9ef120-639d-47be-a309-333ffe2506f2)
 
-<p>In the bellow example it was implemented the <code>Dialog.Trigger</code> in order to perform buttom actions </p>
+<p>In the bellow example it was implemented the <code>Dialog.Trigger</code> component in order to perform buttom actions </p>
 
 ![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/065332d2-471f-4bab-bf73-ea4c06db949c)
 
@@ -29,5 +29,35 @@
 
 ## Server
 
-It
+<p>It was implemented 4 routes:</p>
 
+<ol>
+  <li>List Ads by Game</li>
+  <li>Get Discord by Ad</li>
+  <li>Create Ad</li>
+  <li>List Games</li>
+</ol>
+
+## About implementation
+
+<p>I have utilized <a href="https://prisma.io/">Prisma ORM</a> for efficient database management. Prisma ORM is a powerful tool that facilitates handling migrations and queries, providing a powerful solution for interacting with databases.</p>
+
+<p>Additionally, I have employed SQLite in conjunction with Prisma ORM for my database operations. SQLite serves as a lightweight and versatile relational database management system, complementing Prisma ORM to enhance the overall efficiency of data handling.</p>
+
+
+<div align="center">
+<h1>Mateus Lima</h1>
+<strong>Full Stack Developer</strong>
+<br/>
+<br/>
+
+<a href="https://www.linkedin.com/in/mateus-lima-209b59140/" target="_blank">
+<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/MateusLima96" target="_blank">
+<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<br/>
+<br/>
+</div>
