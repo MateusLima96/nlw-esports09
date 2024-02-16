@@ -52,7 +52,7 @@
 
 <ul>
   <li>Carousel</li>
-  <li>Form validation with React hook form</li>
+  <li>Form validation with React hook form (In progress)</li>
 </ul>
 
 ## 📦 Technologies
