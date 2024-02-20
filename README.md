@@ -4,9 +4,11 @@
 
 <p> This web application allows you to create ads and find duos, say that you are looking foward to playing PUBG but don't have any duo. By creating an Ad and sharing your experience and discord for example allows you to be found for those who want to duo with someone who has the same level of experience or has the same interest.<p>
 
-![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/13b208a2-e1b7-4d86-8cb8-8580bad287bb)
+![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/5e30cf6c-cf8f-476d-84d1-4bed1b57ba46)
 
-![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/16725621-68ed-4526-90f2-8abdcc9eaa87)
+
+![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/9fe32710-9d5f-444e-a517-98662c5caf72)
+
 
 ## 👨🏼‍💻 Concepts learnt
 
