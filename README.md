@@ -52,7 +52,7 @@
 
 <ul>
   <li>Carousel</li>
-  <li>Form validation with React hook form (In progress)</li>
+  <li>Form validation with Yup and React hook form</li>
 </ul>
 
 ## 📦 Technologies
