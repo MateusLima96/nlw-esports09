@@ -25,15 +25,27 @@ interface Game {
   }
 }
 
+
 function App() {
 
-  const [currentSlide, setCurrentSlide] = useState(0)
+
   const [loaded, setLoaded] = useState(false)
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
-    slides: {perView: 4},
-    slideChanged(slider) {
-      setCurrentSlide(slider.track.details.rel)
+    slides: {perView: 1},
+
+
+    breakpoints: {
+      '(min-width: 640px)': { // Tailwind's 'sm' breakpoint
+        slides: { perView: 2 },
+      },
+      '(min-width: 768px)': { // Tailwind's 'md' breakpoint
+        slides: { perView: 3 },
+      },
+      '(min-width: 1024px)': { // Tailwind's 'lg' breakpoint
+        slides: { perView: 4 },
+      },
     },
+ 
     created() {
       setLoaded(true)
     },
@@ -50,14 +62,14 @@ function App() {
 
   return (
     <div className='max-w-[1344px] mx-auto flex flex-col items-center justify-center mt-20'>
-      <img src={logoImg} alt="" className='max-w-80' />
-      <h1 className='text-6xl text-white font-black mt-20'>Your duo is here</h1>
+      <img src={logoImg} alt="" className='max-w-80 sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl' />
+      <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-black mt-20'>Your duo is here</h1>
 
       {games.length > 0 && ( // Only render if games array is not empty
-        <div ref={sliderRef} className='keen-slider flex justify-start'>
+        <div ref={sliderRef} className='keen-slider flex justify-start mt-5 sm:mt-10 md:mt-15 lg:mt-20'>
           {games.map(game => (
             <div key={game.id} 
-            className='keen-slider__slide flex justify-center items-center'>
+            className='keen-slider__slide sm:flex-row flex justify-center items-center'>
               <GameBanner 
                 bannerUrl={game.bannerUrl} 
                 title={game.title} 
@@ -83,21 +95,9 @@ function App() {
             </>
           )}
         </div>
+        
     )}
 
-    {loaded && games.length > 0 && instanceRef?.current?.track.details.slides && (
-      <div className="dots mt-4">
-        {[...Array(instanceRef.current.track.details.slides.length - 3).keys()].map((idx) => (
-          <button
-            key={idx}
-            onClick={() => {
-              instanceRef.current?.moveToIdx(idx)
-            }}
-            className={"dot" + (currentSlide === idx ? " active" : "")}
-          ></button>
-        ))}
-      </div>
-    )}
 
       <Dialog.Root>
         <CreateAdBanner/>
