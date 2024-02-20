@@ -57,6 +57,13 @@
   <li>Form validation with Yup and React hook form</li>
 </ul>
 
+![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/078d9592-a978-4274-aab5-86283b542ecc)
+
+It retrieves a required field validation error if any of these fields aren't filled in.
+
+The checkbox is optional.
+
+
 ## 📦 Technologies
 
 [![My Skills](https://skillicons.dev/icons?i=react,ts,tailwind,css,prisma,sqlite,nodejs&perline=10&theme=dark)](https://skillicons.dev)
