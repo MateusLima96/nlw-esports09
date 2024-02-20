@@ -68,6 +68,16 @@ It retrieves a required field validation error if any of these fields aren't fil
 
 The checkbox is optional.
 
+### Responsiveness
+
+
+
+
+https://github.com/MateusLima96/nlw-esports09/assets/29823372/f5a59342-6e3d-423a-b4fa-42f915e4552d
+
+
+
+
 
 ## 📦 Technologies
 
