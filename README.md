@@ -52,7 +52,13 @@
 
 <p>I have implemented the following improvements to the project adding:</p>
 
-Carousel
+### Carousel
+
+
+
+https://github.com/MateusLima96/nlw-esports09/assets/29823372/ef73f378-a028-4487-a8e0-5141bf328c47
+
+
 
 ### Form validation with Yup and React hook form
 
