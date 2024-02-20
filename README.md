@@ -52,10 +52,9 @@
 
 <p>I have implemented the following improvements to the project adding:</p>
 
-<ul>
-  <li>Carousel</li>
-  <li>Form validation with Yup and React hook form</li>
-</ul>
+Carousel
+
+### Form validation with Yup and React hook form
 
 ![image](https://github.com/MateusLima96/nlw-esports09/assets/29823372/078d9592-a978-4274-aab5-86283b542ecc)
 
